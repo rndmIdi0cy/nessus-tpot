@@ -3,6 +3,10 @@ Nessus-TPOT is a script to optimize a scan policy by removing unused plugins.
 
 This python script will compare the selected policy to vulnerabilities found based on the number of days selected. It will then disable the plugins within the policy that have not been found in the specified number of days.
 
+## Configuration
+Replace the values for **ACCESS_KEY** and **SECRET_KEY** with the values for your API account
+
+## Usage
 ```
 usage: tpot.py [-h] [-p PID] [-l] [-o OUTPUT] [-w] [-d DAYS]
 
