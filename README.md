@@ -6,6 +6,8 @@ This python script will compare the selected policy to vulnerabilities found bas
 ## Configuration
 Replace the values for **ACCESS_KEY** and **SECRET_KEY** with the values for your API account
 
+API keys (user) needs to have configuration privileges on the scan policy
+
 ## Usage
 ```
 usage: tpot.py [-h] [-p PID] [-l] [-o OUTPUT] [-w] [-d DAYS]
